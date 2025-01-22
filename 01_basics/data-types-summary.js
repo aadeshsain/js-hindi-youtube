@@ -22,16 +22,47 @@ console.log(id === anotherId);
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
-    name: "hitesh",
-    age: 22,
-}
+// const heros = ["shaktiman", "naagraj", "doga"];
+// let myObj = {
+//     name: "hitesh",
+//     age: 22,
+// }
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+
+
+// all of data in define in the curly braces are called in object; 
+
+
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (primtive), heap (non primitive
+
+let myYoutubeName = "aadeshsain"
+
+let anotherName = myYoutubeName
+// anotherName = "chaiaurcode"
+
+console.log(anotherName)
+console.log(myYoutubeName)
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sainaadesh1121@gmail.com"
+console.log(userTwo);
+console.log(userOne);
