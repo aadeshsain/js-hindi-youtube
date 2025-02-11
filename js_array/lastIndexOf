@@ -14,10 +14,25 @@ console.log(result12);
 
 
 
-let test3 = [
-    {id: 10329487502, name: "Aadesh sain", age: 25, role: "gurudev"},
-    {id: 45739874946, name: "neha sain", age: 45, role: "shishy"},
-    {id: 74398475997, name: "anu sain", age: 33, role: "gurudev"}
-];
+let test3 = ["javascript","java","jquery","javasscript","java","php","html","css"];
 
-let result4(-)
+let result3 = test3.lastIndexOf("java")
+
+console.log(result3);
+
+let test4 = [1,2,3,4,5,6,7,8,9,5,6,3,5,2,5,6];
+
+let result4 = test4.lastIndexOf(5);
+
+console.log(result4);
+
+//? ye bhi findiIndex or indexOf ke jesa hi hai but isme jo value dihoti hai uske jese element ki last index deta hai 
+
+//! issme value ke jesa same element array me find kiya jata hai or agr uske jese 10 bhi ho to bhi veh last element ki index return krta hai.
+
+
+// findIndex me condition se milne wali pehli index mlti hai 
+
+// indexOf me value ke jesi same element ki pehli index deta hai 
+
+// lastIndexOf me mili hui value ke jese element ka last index deta hai.
