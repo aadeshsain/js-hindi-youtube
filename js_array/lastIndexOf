@@ -1,0 +1,23 @@
+let test = [11,22,33,45,56,34,56,54,6,54,56,5];
+
+let result = test.lastIndexOf(56);
+
+console.log(result);
+
+let test2 = ["javascript","java","jquery","PHP","java","mongoDB","python","java","c++","java","PHP","python"];
+let result2 = test2.lastIndexOf("java",6);
+let result12 = test2.lastIndexOf("java");
+let result21 = test2.lastIndexOf("java",8);
+console.log(result2);
+console.log(result21);
+console.log(result12);
+
+
+
+let test3 = [
+    {id: 10329487502, name: "Aadesh sain", age: 25, role: "gurudev"},
+    {id: 45739874946, name: "neha sain", age: 45, role: "shishy"},
+    {id: 74398475997, name: "anu sain", age: 33, role: "gurudev"}
+];
+
+let result4(-)
